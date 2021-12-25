@@ -62,7 +62,7 @@
 
       <div class="features">
         <div class="features__box">
-          <div class="features_text">
+          <div class="features__text">
             <h3 class="secondary-heading">Grow Together</h3>
             <p>
               Generate meaningful discussions with your audience and build a
@@ -80,7 +80,7 @@
             src="images/illustration-flowing-conversation.svg"
             alt="illustration-flowing-conversation"
           />
-          <div class="features_text">
+          <div class="features__text">
             <h3 class="secondary-heading">Flowing Conversations</h3>
             <p>
               You wouldn't paginate a conversation in real life, so why do it
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="features__box">
-          <div class="features_text">
+          <div class="features__text">
             <h3 class="secondary-heading">Your Users</h3>
             <p>
               It takes no time at all to integrate Huddle with your app's
@@ -109,75 +109,80 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="contact">
-          <a class="footer-logo-container" href="#">
-            <!-- <span class="footer-logo"></span> -->
+  </body>
 
-            <img src="images/logo.svg" alt="" class="footer-logo" />
+  <footer class="footer">
+    <div class="container">
+      <div class="contact">
+        <a class="footer-logo-container" href="#">
+          <img src="images/logo.svg" alt="" class="footer-logo" />
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <a class="footer-link" href="tel:1-543-123-4567"
+          ><span>
+            <svg class="icon icon-contact">
+              <use xlink:href="images/symbol-defs.svg#icon-phone"></use></svg
+          ></span>
+          Phone: +1-543-123-4567</a
+        >
+        <a class="footer-link" href="mailto:example@huddle.com"
+          ><span>
+            <svg class="icon icon-contact">
+              <use xlink:href="images/symbol-defs.svg#icon-gmail"></use></svg
+          ></span>
+          example@huddle.com</a
+        >
+        <div class="social">
+          <a href="#">
+            <svg class="icon icon-social">
+              <use xlink:href="images/symbol-defs.svg#icon-facebook2"></use>
+            </svg>
           </a>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-          </p>
-          <a class="footer-link" href="tel:1-543-123-4567"
-            ><span>
-              <svg class="icon icon-contact">
-                <use xlink:href="images/symbol-defs.svg#icon-phone"></use></svg
-            ></span>
-            Phone: +1-543-123-4567</a
-          >
-          <a class="footer-link" href="email:example@huddle.com"
-            ><span>
-              <svg class="icon icon-contact">
-                <use xlink:href="images/symbol-defs.svg#icon-gmail"></use></svg
-            ></span>
-            example@huddle.com</a
-          >
-          <div class="social">
-            <a href="#">
-              <svg class="icon icon-social">
-                <use xlink:href="images/symbol-defs.svg#icon-facebook2"></use>
-              </svg>
-            </a>
-            <a href="#">
-              <svg class="icon icon-social">
-                <use xlink:href="images/symbol-defs.svg#icon-instagram"></use>
-              </svg>
-            </a>
-            <a href="#">
-              <svg class="icon icon-social">
-                <use xlink:href="images/symbol-defs.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="subscripe">
-          <p class="tertiary-heading">NEWSLETTER</p>
-          <p>
-            To recieve tips on how to grow your community, sign up to our weekly
-            newsletter. We’ll never send you spam or pass on your email address
-          </p>
-          <form action="">
-            <div class="form-group">
-              <input
-                class="input"
-                type="email"
-                placeholder="john#mail.com"
-                id="email"
-                name="email"
-              />
-              <label class="email-status-wrong" for="email"
-                >Check your email please</label
-              >
-            </div>
-            <button value="send" class="btn btn-submit" type="button">
-              subscribe
-            </button>
-          </form>
+          <a href="#">
+            <svg class="icon icon-social">
+              <use xlink:href="images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon icon-social">
+              <use xlink:href="images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="subscripe">
+        <p class="tertiary-heading">NEWSLETTER</p>
+        <p>
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <form action="">
+          <div class="form-group">
+            <input
+              class="input"
+              type="email"
+              placeholder="john#mail.com"
+              id="email"
+              name="email"
+            />
+            <label class="email-status-wrong" for="email"
+              >Check your email please</label
+            >
+          </div>
+          <button value="send" class="btn btn-submit" type="button">
+            subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">
+      <p class="copyright">
+        Challenge by Frontend Mentor, Coded by
+        <a href="https://github.com/AbdelrhmanNawar9"> AN.</a>
+      </p>
+    </div>
+  </footer>
 </html>
